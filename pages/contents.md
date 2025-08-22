@@ -1,1 +1,1 @@
--
+- Definition logseq://graph/cyberpunk?block-id=68a8e8c1-9f94-4f5f-82c3-704648b0f624
