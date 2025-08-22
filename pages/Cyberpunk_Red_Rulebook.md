@@ -9,6 +9,9 @@
 			- People cyber themselves to a limit #psychosis
 			- Someone named Saburo is bald in [[Arasaka Towers]]
 			- #Cyberpunk is a world in 10 year arcs
+			- World goes to hell in 1993
+				- Invention of modern cyberware and the attack on the world trade center in New York by Colombian narco-terrorists
+				-
 		- # Never Fade Away
 		- ## View from the Edge
 			- ### A tabletop RPG primer
