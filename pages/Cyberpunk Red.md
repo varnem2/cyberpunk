@@ -1,3 +1,4 @@
+-
 - Cyberpunk RED is a tabletop role-playing game set in a dystopian future during a period of global rebuilding after a devastating war between powerful corporations. Players take on the roles of "#Edgerunners"—cybernetically enhanced mercenaries, hackers, and outlaws—navigating the dangerous and technologically saturated streets of [[Night City]] and beyond, using skill-based systems to gain power and survive in a world of extreme corporate control and cyber-enhancement.
   id:: 68a8e8c1-9f94-4f5f-82c3-704648b0f624
 - Gameplay
