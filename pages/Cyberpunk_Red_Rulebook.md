@@ -17,7 +17,8 @@
 			- Cyberpunk 2020 or the Fall of the Towers Arc
 				- totally disrupted by 2023
 				- not much storyline after 2023
-			-
+			- Had some partners CD Project Red
+				- Made the Cyberpunk 2077
 		- # Never Fade Away
 		- ## View from the Edge
 			- ### A tabletop RPG primer
