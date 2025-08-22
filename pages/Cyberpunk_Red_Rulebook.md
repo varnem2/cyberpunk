@@ -1,6 +1,6 @@
-- ToC
-	- {{renderer :toc_68a8ef93-fd1f-49b3-bf0d-5ffa0c8a99a5}}
-- Contents
+-
+- Contents {{renderer :toc_68a8ebe0-9896-4337-a308-bb456e737b21}}
+	-
 	- # Never Fade Away
 	- ## View from the Edge
 		- ### A tabletop RPG primer
