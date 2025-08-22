@@ -15,11 +15,11 @@
 				- Starts at 2013
 				- Culmination is [[Johnny Silverhand]]'s invasion of the [[Arasaka Tower]] in an attempt to rescue his girlfriend, [[Alt Cunningham]]
 			- Cyberpunk 2020 or the Fall of the Towers Arc
-				- totally disrupted by 2023
+				- The world is totally disrupted by 2023
 				- not much storyline after 2023
 			- Had some partners CD Project Red
 				- Made the Cyberpunk 2077 and tabletop game at the same time
-			-
+				-
 		- # Never Fade Away
 		- ## View from the Edge
 			- ### A tabletop RPG primer
