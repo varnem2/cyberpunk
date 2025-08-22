@@ -2,5 +2,14 @@
 	- Never Fade Away
 	- View from the Edge
 		- A tabletop RPG primer
-	- Soule and the New Machine
-	-
+	- Soul and the New Machine
+		- Roles
+		- The Three Methods of Making a Character
+	- Tales from the Street
+	- Fitted for the Future
+		- What are Statistics?
+		- Skills
+		- Weapons and Amor
+		- Your Outfit
+	- Putting the Cyber into the Punk
+		- Cyber
