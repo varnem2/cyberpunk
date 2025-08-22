@@ -17,30 +17,30 @@
 		- ### Cyberware
 	- ## The Fall of the Towers
 	- ## Getting it Done
-		- Getting the Scene Down
-		- Resolving Actions with Skills
-		- Skill List
-		- Role Abilities
-		- Multiclassing Roles
-	- Friday Night Firefight
-		- In Combat Time
-		- Actions
-		- Ranged Combat
-		- Melee Combat
-		- Other Ways to Get Hurt
-		- Before You Take Damage
-		- When Armor Doesn't Cut It
-		- Vehicle Combat
-		- Reputation
-	- Netrunning
-		- Doing Things in the NET
-		- Net Combat
-		- Programs
-		- Miscellaneous Upgrades
-		- Cyberdeck Hardware
-		- Doing a Netrun
-		- Building a NET Architecture
-	- Trauma Team
+		- ### Getting the Scene Down
+		- ### Resolving Actions with Skills
+		- ### Skill List
+		- ### Role Abilities
+		- ### Multiclassing Roles
+	- ## Friday Night Firefight
+		- ### In Combat Time
+		- ### Actions
+		- ### Ranged Combat
+		- ### Melee Combat
+		- ### Other Ways to Get Hurt
+		- ### Before You Take Damage
+		- ### When Armor Doesn't Cut It
+		- ### Vehicle Combat
+		- ### Reputation
+	- ## Netrunning
+		- ### Doing Things in the NET
+		- ## Net Combat
+		- ### Programs
+		- ### Miscellaneous Upgrades
+		- ### Cyberdeck Hardware
+		- ### Doing a Netrun
+		- ### Building a NET Architecture
+	- ## Trauma Team
 		- Wound States and Critical Injuries
 		- Stabilization and Healing
 		- Trauma Team
