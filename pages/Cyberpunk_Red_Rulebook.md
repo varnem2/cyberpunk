@@ -26,4 +26,16 @@
 		- Actions
 		- Ranged Combat
 		- Melee Combat
-		-
+		- Other Ways to Get Hurt
+		- Before You Take Damage
+		- When Armor Doesn't Cut It
+		- Vehicle Combat
+		- Reputation
+	- Netrunning
+		- Doing Things in the NET
+		- Net Combat
+		- Programs
+		- Miscellaneous Upgrades
+		- Cyberdeck Hardware
+		- Doing a Netrun
+		- Building a N
