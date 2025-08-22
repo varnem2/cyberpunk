@@ -1,97 +1,99 @@
-- {{renderer :toc_68a8ebe0-9896-4337-a308-bb456e737b21}}
-	- # Preface
-		- Takes place in Night City
-		- Megacorps are at a standstill
-			- Fought megacorps
-		- People cyber themselves to a limit #psychosis
-		- Someone named Saburo is bald in [[Arasaka Towers]]
-		- #Cyberpunk is a world in 10 year arcs
-	- # Never Fade Away
-	- ## View from the Edge
-		- ### A tabletop RPG primer
-		- ### Streetslang
-	- ## Soul and the New Machine
-		- ### Roles
-		- ### The Three Methods of Making a Character
-	- ## Tales from the Street
-	- ## Fitted for the Future
-		- ### What are Statistics?
-		- ### Skills
-		- ### Weapons and Amor
-		- ### Your Outfit
-	- ## Putting the Cyber into the Punk
-		- ### Cyberpsychosis
-		- ### Cyberware
-	- ## The Fall of the Towers
-	- ## Getting it Done
-		- ### Getting the Scene Down
-		- ### Resolving Actions with Skills
-		- ### Skill List
-		- ### Role Abilities
-		- ### Multiclassing Roles
-	- ## Friday Night Firefight
-		- ### In Combat Time
-		- ### Actions
-		- ### Ranged Combat
-		- ### Melee Combat
-		- ### Other Ways to Get Hurt
-		- ### Before You Take Damage
-		- ### When Armor Doesn't Cut It
-		- ### Vehicle Combat
-		- ### Reputation
-	- ## Netrunning
-		- ### Doing Things in the NET
-		- ## Net Combat
-		- ### Programs
-		- ### Miscellaneous Upgrades
-		- ### Cyberdeck Hardware
-		- ### Doing a Netrun
-		- ### Building a NET Architecture
-	- ## Trauma Team
-		- ### Wound States and Critical Injuries
-		- ### Stabilization and Healing
-		- ### Trauma Team
-		- ### Street Drugs
-		- ### Therapy and You
-		- ### Cyberpsychosis
-	- ## Welcome to the Dark Future
-		- ### The Fall of America
-		- ### Dark Future Countdown
-		- ### Before the Red
-		- ### The 4th Corp War
-	- ## The Time of the Red
-		- ### The Aftermath
-		- ### The U.S. in the time of the Red
-		- ### The World Beyond
-		- ### The Neocorps
-		- ### Corporate Profiles
-	- ## Welcome to Night City
-		- ### A Bit of Night City History
-		- ### Night City in 2020
-		- ### Night City, Happy at Last?
-		- ### Night City in the Time of the Red
-		- ### Particulars
-		- ### People of Night City
-		- ### Gangs of Night City
-		- ### Key Places in and Around Night City
-	- ## Everyday Life
-		- ### Staying out of Trouble
-		- ### How You Stay in Touch
-		- ### What You're Packing
-		- ### How You Get Around
-		- ### How You Get the Word
-		- ### What You Wear
-		- ### What You Eat
-		- ### How You Have Fun
-		- ### Where You Get Stuff
-	- ## The New Street Economy
-		- ### Night Markets
-		- ### Night Market Appendix
-		- ### Marking a Living in a Cyberpunk World
-	- ## Running Cyberpunk
-		- ### Beat Charts
-		- ### Getting Better
-		- ### Mooks and Grunts
-		- ### Encounters in the Red
-	- ## Screamsheets
-	- ## Black Dog
+- Book
+	-
+	- {{renderer :toc_68a8ebe0-9896-4337-a308-bb456e737b21}}
+		- # Preface
+			- Takes place in Night City
+			- Megacorps are at a standstill
+				- Fought megacorps
+			- People cyber themselves to a limit #psychosis
+			- Someone named Saburo is bald in [[Arasaka Towers]]
+			- #Cyberpunk is a world in 10 year arcs
+		- # Never Fade Away
+		- ## View from the Edge
+			- ### A tabletop RPG primer
+			- ### Streetslang
+		- ## Soul and the New Machine
+			- ### Roles
+			- ### The Three Methods of Making a Character
+		- ## Tales from the Street
+		- ## Fitted for the Future
+			- ### What are Statistics?
+			- ### Skills
+			- ### Weapons and Amor
+			- ### Your Outfit
+		- ## Putting the Cyber into the Punk
+			- ### Cyberpsychosis
+			- ### Cyberware
+		- ## The Fall of the Towers
+		- ## Getting it Done
+			- ### Getting the Scene Down
+			- ### Resolving Actions with Skills
+			- ### Skill List
+			- ### Role Abilities
+			- ### Multiclassing Roles
+		- ## Friday Night Firefight
+			- ### In Combat Time
+			- ### Actions
+			- ### Ranged Combat
+			- ### Melee Combat
+			- ### Other Ways to Get Hurt
+			- ### Before You Take Damage
+			- ### When Armor Doesn't Cut It
+			- ### Vehicle Combat
+			- ### Reputation
+		- ## Netrunning
+			- ### Doing Things in the NET
+			- ## Net Combat
+			- ### Programs
+			- ### Miscellaneous Upgrades
+			- ### Cyberdeck Hardware
+			- ### Doing a Netrun
+			- ### Building a NET Architecture
+		- ## Trauma Team
+			- ### Wound States and Critical Injuries
+			- ### Stabilization and Healing
+			- ### Trauma Team
+			- ### Street Drugs
+			- ### Therapy and You
+			- ### Cyberpsychosis
+		- ## Welcome to the Dark Future
+			- ### The Fall of America
+			- ### Dark Future Countdown
+			- ### Before the Red
+			- ### The 4th Corp War
+		- ## The Time of the Red
+			- ### The Aftermath
+			- ### The U.S. in the time of the Red
+			- ### The World Beyond
+			- ### The Neocorps
+			- ### Corporate Profiles
+		- ## Welcome to Night City
+			- ### A Bit of Night City History
+			- ### Night City in 2020
+			- ### Night City, Happy at Last?
+			- ### Night City in the Time of the Red
+			- ### Particulars
+			- ### People of Night City
+			- ### Gangs of Night City
+			- ### Key Places in and Around Night City
+		- ## Everyday Life
+			- ### Staying out of Trouble
+			- ### How You Stay in Touch
+			- ### What You're Packing
+			- ### How You Get Around
+			- ### How You Get the Word
+			- ### What You Wear
+			- ### What You Eat
+			- ### How You Have Fun
+			- ### Where You Get Stuff
+		- ## The New Street Economy
+			- ### Night Markets
+			- ### Night Market Appendix
+			- ### Marking a Living in a Cyberpunk World
+		- ## Running Cyberpunk
+			- ### Beat Charts
+			- ### Getting Better
+			- ### Mooks and Grunts
+			- ### Encounters in the Red
+		- ## Screamsheets
+		- ## Black Dog
