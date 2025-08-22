@@ -1,2 +1,1 @@
-- [[Cyberpunk Red]]
-	- [[Cyberpunk_Red_Rulebook]]
+-
