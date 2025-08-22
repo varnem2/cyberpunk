@@ -16,6 +16,7 @@
 				- Culmination is [[Johnny Silverhand]]'s invasion of the [[Arasaka Tower]] in an attempt to rescue his girlfriend, [[Alt Cunningham]]
 			- Cyberpunk 2020 or the Fall of the Towers Arc
 				- totally disrupted by 2023
+				- not much storyline after 2023
 			-
 		- # Never Fade Away
 		- ## View from the Edge
