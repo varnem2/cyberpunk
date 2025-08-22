@@ -38,4 +38,14 @@
 		- Miscellaneous Upgrades
 		- Cyberdeck Hardware
 		- Doing a Netrun
-		- Building a N
+		- Building a NET Architecture
+	- Trauma Team
+		- Wound States and Critical Injuries
+		- Stabilization and Healing
+		- Trauma Team
+		- Street Drugs
+		- Therapy and You
+		- Cyberpsychosis
+	- Welcome to the Dark Future
+		- The Fall of America
+		-
