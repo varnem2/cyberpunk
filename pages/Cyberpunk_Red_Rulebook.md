@@ -5,6 +5,7 @@
 		- Megacorps are at a standstill
 			- Fought megacorps
 		- People cyber themselves to a limit #psychosis
+		- Someone named Saburo is bald in [[Arasaka Towers]]
 		-
 	- # Never Fade Away
 	- ## View from the Edge
