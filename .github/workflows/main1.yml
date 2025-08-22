@@ -24,6 +24,8 @@ jobs:
     name: Publish Logseq graph
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true
       - name: Get last commit timestamp
         id: last_commit
         run: echo "LAST_COMMIT_SECONDS=$(git log -1 --format=%ct)" >> $GITHUB_OUTPUT
