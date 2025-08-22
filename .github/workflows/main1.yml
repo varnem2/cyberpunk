@@ -1,0 +1,51 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  # push:
+  #   branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}
+      cancel-in-progress: true
+    name: Publish Logseq graph
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get last commit timestamp
+        id: last_commit
+        run: echo "LAST_COMMIT_SECONDS=$(git log -1 --format=%ct)" >> $GITHUB_OUTPUT
+      - name: Check if new commits in last 24 hours
+        id: new_commits_check
+        run: |
+          LAST_COMMIT_SECONDS=${{ steps.last_commit.outputs.LAST_COMMIT_SECONDS }}
+          ONE_DAY_AGO_SECONDS=$(date -d "24 hours ago" +%s)
+          if [ "$LAST_COMMIT_SECONDS" -gt "$ONE_DAY_AGO_SECONDS" ]; then
+            echo "NEW_COMMITS=true" >> $GITHUB_OUTPUT
+          else
+            echo "NEW_COMMITS=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Debug NEW_COMMITS
+        run: |
+          NEW_COMMITS_VALUE="${{ steps.new_commits_check.outputs.NEW_COMMITS }}"
+          echo "NEW_COMMITS output: $NEW_COMMITS_VALUE"
+      - uses: logseq/publish-spa@v0.3.0
+        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
+      - name: Add a nojekyll file # to make sure asset paths are correctly identified
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: www
