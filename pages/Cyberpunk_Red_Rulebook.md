@@ -1,6 +1,6 @@
 - Contents
-	- Never Fade Away
-	- View from the Edge
+	- # Never Fade Away
+	- ## View from the Edge
 		- A tabletop RPG primer
 	- Soul and the New Machine
 		- Roles
