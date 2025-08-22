@@ -18,7 +18,8 @@
 				- totally disrupted by 2023
 				- not much storyline after 2023
 			- Had some partners CD Project Red
-				- Made the Cyberpunk 2077
+				- Made the Cyberpunk 2077 and tabletop game at the same time
+			-
 		- # Never Fade Away
 		- ## View from the Edge
 			- ### A tabletop RPG primer
