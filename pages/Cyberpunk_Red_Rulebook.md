@@ -12,4 +12,18 @@
 		- Weapons and Amor
 		- Your Outfit
 	- Putting the Cyber into the Punk
-		- Cyber
+		- Cyberpsychosis
+		- Cyberware
+	- The Fall of the Towers
+	- Getting it Done
+		- Getting the Scene Down
+		- Resolving Actions with Skills
+		- Skill List
+		- Role Abilities
+		- Multiclassing Roles
+	- Friday Night Firefight
+		- In Combat Time
+		- Actions
+		- Ranged Combat
+		- Melee Combat
+		-
