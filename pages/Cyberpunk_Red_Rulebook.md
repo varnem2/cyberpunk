@@ -6,7 +6,7 @@
 			- Fought megacorps
 		- People cyber themselves to a limit #psychosis
 		- Someone named Saburo is bald in [[Arasaka Towers]]
-		-
+		- #Cyberpunk is a world in 10 year arcs
 	- # Never Fade Away
 	- ## View from the Edge
 		- ### A tabletop RPG primer
