@@ -77,4 +77,13 @@
 		- How You Have Fun
 		- Where You Get Stuff
 	- The New Street Economy
-		-
+		- Night Markets
+		- Night Market Appendix
+		- Marking a Living in a Cyberpunk World
+	- Running Cyberpunk
+		- Beat Charts
+		- Getting Better
+		- Mooks and Grunts
+		- Encounters in the Red
+	- Screamsheets
+	- Black Dog
