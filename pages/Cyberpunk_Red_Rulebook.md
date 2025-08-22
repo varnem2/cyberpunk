@@ -68,4 +68,13 @@
 		- Key Places in and Around Night City
 	- Everyday Life
 		- Staying out of Trouble
+		- How You Stay in Touch
+		- What You're Packing
+		- How You Get Around
+		- How You Get the Word
+		- What You Wear
+		- What You Eat
+		- How You Have Fun
+		- Where You Get Stuff
+	- The New Street Economy
 		-
