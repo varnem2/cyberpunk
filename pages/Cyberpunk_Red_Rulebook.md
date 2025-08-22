@@ -1,4 +1,3 @@
--
 - {{renderer :toc_68a8ebe0-9896-4337-a308-bb456e737b21}}
 	- # Preface
 		- Takes place in Night City
