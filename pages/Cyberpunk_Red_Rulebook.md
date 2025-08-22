@@ -1,21 +1,22 @@
 - Contents
 	- # Never Fade Away
 	- ## View from the Edge
-		- A tabletop RPG primer
-	- Soul and the New Machine
-		- Roles
-		- The Three Methods of Making a Character
-	- Tales from the Street
-	- Fitted for the Future
-		- What are Statistics?
-		- Skills
-		- Weapons and Amor
-		- Your Outfit
-	- Putting the Cyber into the Punk
-		- Cyberpsychosis
-		- Cyberware
-	- The Fall of the Towers
-	- Getting it Done
+		- ### A tabletop RPG primer
+		- ### Streetslang
+	- ## Soul and the New Machine
+		- ### Roles
+		- ### The Three Methods of Making a Character
+	- ## Tales from the Street
+	- ## Fitted for the Future
+		- ### What are Statistics?
+		- ### Skills
+		- ### Weapons and Amor
+		- ### Your Outfit
+	- ## Putting the Cyber into the Punk
+		- ### Cyberpsychosis
+		- ### Cyberware
+	- ## The Fall of the Towers
+	- ## Getting it Done
 		- Getting the Scene Down
 		- Resolving Actions with Skills
 		- Skill List
