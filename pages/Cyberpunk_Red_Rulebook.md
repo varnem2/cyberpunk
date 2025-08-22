@@ -13,7 +13,8 @@
 				- Invention of modern cyberware and the attack on the world trade center in New York by Colombian narco-terrorists
 			- Never Fade Away Arc
 				- Starts at 2013
-				- Culmination is
+				- Culmination is [[Johnny Silverhand]]'s invasion of the [[Arasaka Tower]] in an attempt to rescue his girlfriend, [[Alt Cunningham]]
+			- Cyberpunk 2020 or the Fall of the Towers Arc
 		- # Never Fade Away
 		- ## View from the Edge
 			- ### A tabletop RPG primer
