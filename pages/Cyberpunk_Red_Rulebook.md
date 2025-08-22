@@ -3,7 +3,8 @@
 	- # Preface
 		- Takes place in Night City
 		- Megacorps are at a standstill
-			- Fought
+			- Fought megacorps
+		- People cyber themselves to a limit #psychosis
 		-
 	- # Never Fade Away
 	- ## View from the Edge
