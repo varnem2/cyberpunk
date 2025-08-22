@@ -6,4 +6,5 @@
 		- The game heavily features Night City, the iconic location of the Cyberpunk universe, but players can also venture to the perilous West Coast of the United States.
 	- [[Technological Dystopia]]
 		- The world is characterized by pervasive technology, cybernetic enhancements, powerful corporations, and intense urban decay.
-	-
+- #Roles
+	- Players choose from one of ten roles, such as Solo (combat specialist), Tech (inventor/hacker), or Media (journalist), each with unique abilities that grant them power.
