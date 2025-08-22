@@ -8,10 +8,10 @@
 		- The world is characterized by pervasive technology, cybernetic enhancements, powerful corporations, and intense urban decay.
 - Roles
 	- Players choose from one of ten roles, such as Solo (combat specialist), Tech (inventor/hacker), or Media (journalist), each with unique abilities that grant them power.
-- **Cyberware and Humanity:**
+- Cyberware and Humanity:
   
   Characters can install cybernetic enhancements, but this comes at a cost to their humanity, potentially leading to mental breaks known as cyberpsychosis.
-- **Skills and Abilities:**
+- Skills and Abilities:**
   
   Players use a skill-based system to represent their characters' proficiency in various tasks, such as combat, hacking, or even driving.
 - **Roleplaying and Combat:**
