@@ -41,31 +41,31 @@
 		- ### Doing a Netrun
 		- ### Building a NET Architecture
 	- ## Trauma Team
-		- Wound States and Critical Injuries
-		- Stabilization and Healing
-		- Trauma Team
-		- Street Drugs
-		- Therapy and You
-		- Cyberpsychosis
-	- Welcome to the Dark Future
-		- The Fall of America
-		- Dark Future Countdown
-		- Before the Red
-		- The 4th Corp War
-	- The Time of the Red
-		- The Aftermath
-		- The U.S. in the time of the Red
-		- The World Beyond
-		- The Neocorps
-		- Corporate Profiles
-	- Welcome to Night City
-		- A Bit of Night City History
-		- Night City in 2020
-		- Night City, Happy at Last?
-		- Night City in the Time of the Red
-		- Particulars
-		- People of Night City
-		- Gangs of Night City
+		- ### Wound States and Critical Injuries
+		- ### Stabilization and Healing
+		- ### Trauma Team
+		- ### Street Drugs
+		- ### Therapy and You
+		- ### Cyberpsychosis
+	- ## Welcome to the Dark Future
+		- ### The Fall of America
+		- ### Dark Future Countdown
+		- ### Before the Red
+		- ### The 4th Corp War
+	- ## The Time of the Red
+		- ### The Aftermath
+		- ### The U.S. in the time of the Red
+		- ### The World Beyond
+		- ### The Neocorps
+		- ### Corporate Profiles
+	- ## Welcome to Night City
+		- ### A Bit of Night City History
+		- ### Night City in 2020
+		- ### Night City, Happy at Last?
+		- ### Night City in the Time of the Red
+		- ### Particulars
+		- ### People of Night City
+		- ### Gangs of Night City
 		- Key Places in and Around Night City
 	- Everyday Life
 		- Staying out of Trouble
