@@ -20,7 +20,7 @@ public:: true
 				- The world is totally disrupted by 2023
 				- not much storyline after 2023
 			- Red Arc
-			-
+				-
 		- # Never Fade Away
 		- ## View from the Edge
 			- ### A tabletop RPG primer
