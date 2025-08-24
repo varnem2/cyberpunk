@@ -50,7 +50,7 @@ jobs:
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Echo pwd
         if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
-        run: cd $GITHUB_WORKSPACE/www && pwd && git lfs install
+        run: cd $GITHUB_WORKSPACE/www && pwd && git lfs install && git lfs track *.pdf
       - name: Deploy 🚀
         if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
         uses: JamesIves/github-pages-deploy-action@v4
