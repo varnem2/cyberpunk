@@ -43,7 +43,7 @@ jobs:
         run: |
           NEW_COMMITS_VALUE="${{ steps.new_commits_check.outputs.NEW_COMMITS }}"
           echo "NEW_COMMITS output: $NEW_COMMITS_VALUE"
-      - uses: logseq/publish-spa@v0.3.0
+      - uses: ./.github/workflows/publish-spa.yml
         if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
