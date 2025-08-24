@@ -1,80 +1,39 @@
-# This is a basic workflow to help you get started with Actions
+name: Deploy to GitHub Pages
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # schedule:
-  #   - cron: '0 1 * * *'
-  # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master" ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
-  contents: write
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-build
-      cancel-in-progress: true
-    name: Build Logseq graph
-    outputs:
-      new_commits: ${{ steps.new_commits_check.outputs.NEW_COMMITS }}
-    steps:
-      - uses: actions/checkout@v5
-        with:
-          lfs: true
-      - name: Get last commit timestamp
-        id: last_commit
-        run: echo "LAST_COMMIT_SECONDS=$(git log -1 --format=%ct)" >> $GITHUB_OUTPUT
-      - name: Check if new commits in last 24 hours
-        id: new_commits_check
-        run: |
-          LAST_COMMIT_SECONDS=${{ steps.last_commit.outputs.LAST_COMMIT_SECONDS }}
-          ONE_DAY_AGO_SECONDS=$(date -d "24 hours ago" +%s)
-          if [ "$LAST_COMMIT_SECONDS" -gt "$ONE_DAY_AGO_SECONDS" ]; then
-            echo "NEW_COMMITS=true" >> $GITHUB_OUTPUT
-          else
-            echo "NEW_COMMITS=false" >> $GITHUB_OUTPUT
-          fi
-      - name: Debug NEW_COMMITS
-        run: |
-          NEW_COMMITS_VALUE="${{ steps.new_commits_check.outputs.NEW_COMMITS }}"
-          echo "NEW_COMMITS output: $NEW_COMMITS_VALUE"
-      - uses: ./.github/actions
-        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
-      - name: Add a nojekyll file # to make sure asset paths are correctly identified
-        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
-      - name: Echo pwd
-        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
-        run: cd $GITHUB_WORKSPACE/www && pwd && git lfs install && git lfs track *.pdf
-      - name: Upload artifact
-        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: www
-          path: www
+  contents: read
+  pages: write
+  id-token: write
 
+jobs:
   deploy:
     runs-on: ubuntu-latest
-    needs: build
-    if: needs.build.outputs.new_commits == 'true'
-    concurrency:
-      group: ${{ github.workflow }}-deploy
-      cancel-in-progress: true
-    name: Deploy to GitHub Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          name: www
-          path: www
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+          lfs: true
+
+      - name: Build
+        uses: ./.github/actions
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: www
+          path: 'www'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
