@@ -16,12 +16,14 @@ on:
 permissions:
   contents: write
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     concurrency:
-      group: ${{ github.workflow }}
+      group: ${{ github.workflow }}-build
       cancel-in-progress: true
-    name: Publish Logseq graph
+    name: Build Logseq graph
+    outputs:
+      new_commits: ${{ steps.new_commits_check.outputs.NEW_COMMITS }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -51,22 +53,28 @@ jobs:
       - name: Echo pwd
         if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
         run: cd $GITHUB_WORKSPACE/www && pwd && git lfs install && git lfs track *.pdf
-      - name: Deploy 🚀
+      - name: Upload artifact
         if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: www
+          path: www
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    if: needs.build.outputs.new_commits == 'true'
+    concurrency:
+      group: ${{ github.workflow }}-deploy
+      cancel-in-progress: true
+    name: Deploy to GitHub Pages
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: www
+          path: www
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: www
-      - uses: actions/checkout@v5
-        with:
-          lfs: true
-          ref: github-pages
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: './www'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
