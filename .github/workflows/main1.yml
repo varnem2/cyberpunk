@@ -46,10 +46,13 @@ jobs:
       - uses: ./.github/actions
         if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
+        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Echo pwd
+        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
         run: cd $GITHUB_WORKSPACE/www && pwd && git lfs install
       - name: Deploy 🚀
+        if: steps.new_commits_check.outputs.NEW_COMMITS == 'true'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: www
